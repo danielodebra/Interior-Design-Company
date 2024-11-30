@@ -1,0 +1,38 @@
+header {
+  background: url(../images/pexels.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 1000px;
+}
+.section {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+.tabs .indicator {
+  background-color: #1a237e;
+}
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  background: transparent;
+}
+
+.about-us {
+  width: 100% !important;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 10vw !important;
+  color: white;
+  margin: 3rem 0;
+}
+
+.about-us-container {
+  padding: 3rem 0;
+  min-width: 100%;
+}
+
+@media screen and (max-width: 670px) {
+  header {
+    min-height: 500px;
+  }
+}
