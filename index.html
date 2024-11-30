@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Creative Architect</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <header>
+      <nav class="nav-wrapper transparent">
+        <div class="container">
+          <a href="" class="brand-logo">Creative Architect - Daniel Debra</a>
+          <a href="" class="sidenav-trigger" data-target="mobile-menu">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#photos">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <a
+                href="#"
+                class="tooltipped btn-floating btn-small indigo darken-4"
+                data-tooltip="This is Instagram"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="tooltipped btn-floating btn-small indigo darken-4"
+                data-tooltip="This is Facebook"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="tooltipped btn-floating btn-small indigo darken-4"
+                data-tooltip="This is Twitter"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+          <ul class="sidenav grey lighten-2" id="mobile-menu">
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- photo / grid -->
+    <section class="container section scrollspy" id="photos">
+      <div class="row">
+        <div class="col s12 l4">
+          <img
+            src="assets/images/arte.jpg"
+            alt=""
+            class="responsive-img materialboxed"
+          />
+        </div>
+        <div class="col s12 l6 offset-l1">
+          <h2 class="indigo-text text-darken-4">Chairs</h2>
+          <p>Bespoke chairs, nicely custom-made for everybody.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 l4 push-l7 offset-large-l1">
+          <img
+            src="assets/images/celine.jpg"
+            alt=""
+            class="responsive-img materialboxed"
+          />
+        </div>
+        <div class="col s12 l6 pull-l5 right-align offset-l1">
+          <h2 class="indigo-text text-darken-4">Home Libraries</h2>
+          <p>
+            Some amazing scenery to illustrate the beauty of a well custom-made
+            book case.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 l4">
+          <img
+            src="assets/images/omer.jpg"
+            alt=""
+            class="responsive-img materialboxed"
+          />
+        </div>
+        <div class="col s12 l6 offset-l1">
+          <h2 class="indigo-text text-darken-4">Living Rooms</h2>
+          <p>A well structured space for a colourful living room.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About us section -->
+    <div class="section container scrollspy about-us-container">
+      <div class="row grey darken-3">
+        <div class="col s12 about-us">
+          <h2 class="center-align text lighten-3">About Us</h2>
+          <p class="text lighten-3">
+            At Creative Architect, we believe that every space has a story
+            waiting to unfold. Our passion for design goes beyond aesthetics —
+            we focus on creating environments that are a true reflection of your
+            personality, lifestyle, and vision. With a keen eye for detail and a
+            commitment to excellence, we craft interiors that are as functional
+            as they are beautiful. Whether you're looking to refresh a single
+            room or transform an entire home, our experienced design team works
+            closely with you at every stage. From initial concept to final
+            execution, we bring your dream space to life with a personalized
+            approach, innovative solutions, and a deep understanding of the
+            latest design trends. Founded on the principles of creativity,
+            collaboration, and client satisfaction.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact form -->
+    <section class="section container scrollspy" id="contact">
+      <div class="row">
+        <div class="col s12 l5">
+          <h2 class="indigo-text text-darken-4">Get In Touch</h2>
+          <p>Hey, so glad you made it here!</p>
+          <p>
+            Feel free to reach out by email, Facebook, Instragram or Twitter.
+          </p>
+        </div>
+        <div class="col s12 l5 offset-l2">
+          <form action="">
+            <div class="input-field">
+              <i class="material-icons prefix">email</i>
+              <input type="email" id="email" />
+              <label for="email">Your Email</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">message</i>
+              <textarea id="message" class="materialize-textarea"></textarea>
+              <label for="message">Your message</label>
+            </div>
+            <div class="input-field">
+              <input type="text" id="date" class="datepicker" />
+              <label for="date">Choose a date you need me for...</label>
+            </div>
+            <div class="input-">
+              <p>Services required...</p>
+              <p>
+                <label>
+                  <input type="checkbox" />
+                  <span>Interior Design</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" />
+                  <span>Architectural Design</span>
+                </label>
+              </p>
+            </div>
+            <div class="input-field center">
+              <button class="btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="page-footer grey darken-3">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 l6">
+            <h5>Find us at</h5>
+            <ul>
+              <li>13 Bob Street</li>
+              <li>Bobbington</li>
+              <li>Bobsville</li>
+              <li>B0 3GE</li>
+            </ul>
+          </div>
+          <div class="col s12 l4 offset-l2">
+            <h5>Connect</h5>
+            <ul>
+              <li><a href="#" class="grey-text text lighten-3">Facebook</a></li>
+              <li><a href="#" class="grey-text text lighten-3">Twitter</a></li>
+              <li>
+                <a href="#" class="grey-text text lighten-3">Linked In</a>
+              </li>
+              <li>
+                <a href="#" class="grey-text text lighten-3">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright gret darken-4">
+        <div class="container center-align">
+          &copy; 2024 Creative Architect - Daniel Debra
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
